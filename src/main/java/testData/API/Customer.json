@@ -1,0 +1,17 @@
+{
+  "cmpNo":10000002,
+  "userId":"rikkei_02@example.com",
+  "password":"1cc2b923c088fefd877affcd271494a6",
+  "userLastName":"日本",
+  "userFirstName":"太郎",
+  "userLastNameKana":"ニホン",
+  "userFirstNameKana":"タロウ",
+  "mobileNumber":"0123456789",
+  "emailAddress":"user003@example.com",
+  "emailAddressMobile":"user003@example.com",
+  "trinityCdOfN2":"2084384",
+  "trinityBuildingCdOfN2":"50230",
+  "sex": 1,
+  "birthDate": "19900101",
+  "registerDivision":1
+}

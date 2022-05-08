@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Run TestCase demoDatabaseConnection">
+
+    <listeners>
+        <listener class-name="listeners.ExtentTestListener"/>
+    </listeners>
+
+    <parameter name="envName" value="BrowserStack"/>
+    <parameter name="url" value="https://demo.nopcommerce.com/"/>
+
+<!--    <test name="Run on FireFox">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="osName" value="Windows"/>
+        <parameter name="osVersion" value="10"/>
+        <parameter name="browserVersion" value="99.0"/>
+        <classes>
+            <class name="testcases.RunForGrid.RunBrowserStack"/>
+        </classes>
+    </test>-->
+
+    <test name="Run on IE">
+        <parameter name="browser" value="ie"/>
+        <parameter name="ipAddress" value=""/>
+        <parameter name="portName" value=""/>
+        <parameter name="osName" value="Windows"/>
+        <parameter name="osVersion" value="7"/>
+        <parameter name="browserVersion" value="11.0"/>
+        <classes>
+            <class name="testcases.RunForGrid.RunBrowserStack"/>
+        </classes>
+    </test>
+
+</suite>

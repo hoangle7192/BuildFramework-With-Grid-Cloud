@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RunSauceLabs" parallel="tests" thread-count="2">
+
+    <listeners>
+        <listener class-name="listeners.ExtentTestListener"/>
+    </listeners>
+
+    <test name="Run on chrome">
+        <parameter name="envName" value="Local"/>
+        <parameter name="roleName" value="Admin"/>
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="ipAddress" value=""/>
+        <parameter name="portName" value=""/>
+        <parameter name="osName" value=""/>
+        <parameter name="osVersion" value=""/>
+        <parameter name="browserVersion" value=""/>
+        <classes>
+            <class name="testcases.RunForGrid.RunAll"/>
+        </classes>
+    </test>
+
+    <test name="Run on Firefox">
+        <parameter name="envName" value="Local"/>
+        <parameter name="roleName" value="Admin"/>
+        <parameter name="browserName" value="Firefox"/>
+        <parameter name="ipAddress" value=""/>
+        <parameter name="portName" value=""/>
+        <parameter name="osName" value=""/>
+        <parameter name="osVersion" value=""/>
+        <parameter name="browserVersion" value=""/>
+        <classes>
+            <class name="testcases.RunForGrid.RunAll"/>
+        </classes>
+    </test>
+
+</suite>

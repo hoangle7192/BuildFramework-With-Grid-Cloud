@@ -1,0 +1,5 @@
+testcases\RunForGrid\RunGrid.class
+testcases\RunForGrid\RunSauceLabs.class
+testcases\RunForGrid\RunAll.class
+testcases\RunForGrid\RunLocal.class
+testcases\RunForGrid\RunBrowserStack.class

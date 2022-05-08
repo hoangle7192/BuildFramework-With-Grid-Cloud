@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Run TestCase demoDatabaseConnection">
+
+    <parameter name="url" value="https://demo.nopcommerce.com/"/>
+
+<!--    <test name="Run on Chrome">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="ipAddress" value="172.19.144.1"/>
+        <parameter name="portNumber" value="5555"/>
+        <classes>
+            <class name="testcases.RunForGrid.RunGrid"/>
+        </classes>
+    </test>-->
+
+    <test name="Run on FireFox">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="ipAddress" value="10.20.22.89"/>
+        <parameter name="portNumber" value="14082"/>
+        <classes>
+            <class name="testcases.RunForGrid.RunGrid"/>
+        </classes>
+    </test>
+
+</suite>
