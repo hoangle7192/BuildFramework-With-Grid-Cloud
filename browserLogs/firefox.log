@@ -1,24 +1,22 @@
-1651977679753	geckodriver	INFO	Listening on 127.0.0.1:6433
-1651977680458	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HoangLH\\AppData\\Local\\Temp\\rust_mozprofileV3qgrr"
-1651977681261	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HoangLH\\AppData\\Local\\Temp\\rust_mozprofileV3qgrr\\search.json.mozlz4", (void 0)))
-1651977684958	Marionette	INFO	Listening on port 26835
-1651977685288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1652688322161	geckodriver	INFO	Listening on 127.0.0.1:46317
+1652688322894	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HoangLH\\AppData\\Local\\Temp\\rust_mozprofileGik6eO"
+1652688323371	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HoangLH\\AppData\\Local\\Temp\\rust_mozprofileGik6eO\\search.json.mozlz4", (void 0)))
+1652688328464	Marionette	INFO	Listening on port 1033
+1652688329033	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.nopcommerce.com"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.nopcommerce.com"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: fallinJavaScript ge rbackr otro a synchronous message for:" "https://demo.nopcommerce.com"
+: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling bacJavaScrki ptto  ear rsoyr: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+nchronous message for:" "https://demo.nopcommerce.com"
+console.warn: LoginRecipes: "getRecipes: falling backJavaS ctroi pat  seyrnrcohrr: resoonuorucse :m/e/sgsraeg/em ofdoules/Lro:g"inManagerParent. j"shmt, tlpisn:e/ /1d3e6m:o .TnyoppeError: gRecipeManager is null
+commerce.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message fJoavaSrc:r"i p"th tetrprso:r/:/ demo.nopcommercer.ecsoomu"rc
+e://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling baJavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+ck to a synchrJavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+onous message for:" "https://demo.nopcommerce.com"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.nopcommerce.com"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchJavaScript errorr: reosnoouursc em:e//gsrsea/modulegs/LoginManageer Pfarento.rj:s"m ," hltitnpes :1/3/6d:e mToy.pneoEprcroomrm:e rgcRee.cciopeMam"
-nager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronJaous vmaeSscsraigpet f oerr:r"o r":h trtepssour:c/e/://gdreem/om.onopduclommercees./cLoomg"in
-ManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous messJavaaScrgie for:p"t  "ehrtrtoprs:: /r/edseoumrce://og.re/mnoduloes/LpocginMoamnmaegrecrPareen.tc.ojms"
-m, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous meJsasvaaScrgiept er rfoorr:: "r eso"urhce:/t/tgprse://m/demoo.dnuolpecso/mLmerce.como"gi
-nManagerconsole.warnP:a rLeongti.njRecipessm, : "getReciplinee 136: Tsy:p efErroarl:ling back to a s ynchronous message for:" "https://demo.nopcommerce.com"
-gRecipeManager is null
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-1651977743654	Marionette	INFO	Stopped listening on port 26835
+1652688345911	Marionette	INFO	Stopped listening on port 1033

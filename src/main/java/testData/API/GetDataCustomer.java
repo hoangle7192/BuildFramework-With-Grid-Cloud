@@ -9,16 +9,16 @@ import lombok.Data;
 import java.io.File;
 
 @Data
-public class GenDataCustomer {
+public class GetDataCustomer {
 
-    public static GenDataCustomer getDataJson() {
+    public static GetDataCustomer getDataJson() {
 
         String fileName = GlobalConstants.API_TEST_DATA_FOLDER + "Customer.json";
 
         try {
             ObjectMapper mapper = new ObjectMapper();
             mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-            return mapper.readValue(new File(fileName), GenDataCustomer.class);
+            return mapper.readValue(new File(fileName), GetDataCustomer.class);
         } catch (Exception ex) {
             ex.printStackTrace();
             return null;
@@ -26,7 +26,7 @@ public class GenDataCustomer {
     }
 
     @JsonProperty("cmpNo")
-    String cmpNo;
+    int cmpNo;
 
     @JsonProperty("userId")
     String userId;
@@ -47,7 +47,7 @@ public class GenDataCustomer {
     String userFirstNameKana;
 
     @JsonProperty("mobileNumber")
-    String mobileNumber;
+    int mobileNumber;
 
     @JsonProperty("emailAddress")
     String emailAddress;
@@ -55,18 +55,18 @@ public class GenDataCustomer {
     @JsonProperty("emailAddressMobile")
     String emailAddressMobile;
 
-    @JsonProperty("trinityCdOfN2")
-    String trinityCdOfN2;
+    @JsonProperty("trinityCd")
+    int trinityCd;
 
-    @JsonProperty("trinityBuildingCdOfN2")
-    String trinityBuildingCdOfN2;
+    @JsonProperty("trinityBuildingCd")
+    int trinityBuildingCd;
 
     @JsonProperty("sex")
-    String sex;
+    int sex;
 
     @JsonProperty("birthDate")
-    String birthDate;
+    int birthDate;
 
     @JsonProperty("registerDivision")
-    String registerDivision;
+    int registerDivision;
 }

@@ -9,8 +9,8 @@
   "mobileNumber":"0123456789",
   "emailAddress":"user003@example.com",
   "emailAddressMobile":"user003@example.com",
-  "trinityCdOfN2":"2084384",
-  "trinityBuildingCdOfN2":"50230",
+  "trinityCdOf":"2084384",
+  "trinityBuildingCdOf":"50230",
   "sex": 1,
   "birthDate": "19900101",
   "registerDivision":1

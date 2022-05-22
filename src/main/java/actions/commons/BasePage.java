@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-public class BasePage {
+public abstract class BasePage {
 
     public void sleepInSecond(long timeoutInSecond) {
         try {
@@ -189,6 +189,14 @@ public class BasePage {
         }
     }
 
+    protected void clearValueInElementByPressKey(WebDriver driver, String locatorType) {
+        getWebElement(driver, locatorType).sendKeys(Keys.chord(Keys.CONTROL, "a", Keys.DELETE));
+    }
+
+    protected void clearValueInElementByPressKey(WebDriver driver, String locatorType, String... dynamicValues) {
+        getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).sendKeys(Keys.chord(Keys.CONTROL, "a", Keys.DELETE));
+    }
+
     protected void selectItemInDefaultDropDown(WebDriver driver, String locatorType, String selectItemName) {
         try {
             new Select(getWebElement(driver, locatorType)).selectByVisibleText(selectItemName);
@@ -316,7 +324,7 @@ public class BasePage {
         if (elements.size() == 0) {
             System.out.println("Element Not In Dom");
             return true;
-        } else if (elements.size() > 0 && !elements.get(0).isDisplayed()) {
+        } else if (!elements.get(0).isDisplayed()) {
             System.out.println("Element In Dom But Invisible");
             return true;
         } else {
@@ -332,7 +340,7 @@ public class BasePage {
         if (elements.size() == 0) {
             System.out.println("Element Not In Dom");
             return true;
-        } else if (elements.size() > 0 && !elements.get(0).isDisplayed()) {
+        } else if (!elements.get(0).isDisplayed()) {
             System.out.println("Element In Dom But Invisible");
             return true;
         } else {

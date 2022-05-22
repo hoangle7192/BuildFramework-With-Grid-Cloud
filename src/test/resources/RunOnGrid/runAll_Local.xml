@@ -6,10 +6,10 @@
         <listener class-name="listeners.ExtentTestListener"/>
     </listeners>
 
-    <test name="Run on chrome">
+    <test name="Run on edge">
         <parameter name="envName" value="Local"/>
         <parameter name="roleName" value="Admin"/>
-        <parameter name="browserName" value="chrome"/>
+        <parameter name="browserName" value="edge"/>
         <parameter name="ipAddress" value=""/>
         <parameter name="portName" value=""/>
         <parameter name="osName" value=""/>

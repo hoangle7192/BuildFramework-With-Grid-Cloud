@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-08T02:41:18Z" name="RunSauceLabs" finished-at="2022-05-08T02:42:24Z" duration-ms="66379">
+  <suite started-at="2022-05-16T08:05:21Z" name="RunSauceLabs" finished-at="2022-05-16T08:05:47Z" duration-ms="26026">
     <groups>
     </groups>
-    <test started-at="2022-05-08T02:41:18Z" name="Run on chrome" finished-at="2022-05-08T02:41:47Z" duration-ms="29466">
+    <test started-at="2022-05-16T08:05:21Z" name="Run on edge" finished-at="2022-05-16T08:05:46Z" duration-ms="25055">
       <class name="testcases.RunForGrid.RunAll">
-        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RunForGrid.RunAll@11f0a5a1]" started-at="2022-05-08T02:41:18Z" name="beforeClass" finished-at="2022-05-08T02:41:29Z" duration-ms="11705" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RunForGrid.RunAll@73a8da0f]" started-at="2022-05-16T08:05:21Z" name="beforeClass" finished-at="2022-05-16T08:05:27Z" duration-ms="6434" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,7 +21,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
             <param index="3">
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC_01_Register(java.lang.reflect.Method)[pri:0, instance:testcases.RunForGrid.RunAll@11f0a5a1]" started-at="2022-05-08T02:41:29Z" name="TC_01_Register" finished-at="2022-05-08T02:41:40Z" duration-ms="10779" status="PASS">
+        <test-method signature="TC_01_Register(java.lang.reflect.Method)[pri:0, instance:testcases.RunForGrid.RunAll@73a8da0f]" started-at="2022-05-16T08:05:27Z" name="TC_01_Register" finished-at="2022-05-16T08:05:38Z" duration-ms="11089" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,7 +64,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01_Register -->
-        <test-method signature="TC_02_Login(java.lang.reflect.Method)[pri:0, instance:testcases.RunForGrid.RunAll@11f0a5a1]" started-at="2022-05-08T02:41:40Z" name="TC_02_Login" finished-at="2022-05-08T02:41:46Z" duration-ms="5925" status="PASS">
+        <test-method signature="TC_02_Login(java.lang.reflect.Method)[pri:0, instance:testcases.RunForGrid.RunAll@73a8da0f]" started-at="2022-05-16T08:05:38Z" name="TC_02_Login" finished-at="2022-05-16T08:05:45Z" duration-ms="6327" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_02_Login -->
-        <test-method signature="TC_03_Edit(java.lang.reflect.Method)[pri:0, instance:testcases.RunForGrid.RunAll@11f0a5a1]" started-at="2022-05-08T02:41:46Z" name="TC_03_Edit" finished-at="2022-05-08T02:41:46Z" duration-ms="1" status="PASS">
+        <test-method signature="TC_03_Edit(java.lang.reflect.Method)[pri:0, instance:testcases.RunForGrid.RunAll@73a8da0f]" started-at="2022-05-16T08:05:45Z" name="TC_03_Edit" finished-at="2022-05-16T08:05:45Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,18 +86,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03_Edit -->
-        <test-method signature="TC_04_Delete(java.lang.reflect.Method)[pri:0, instance:testcases.RunForGrid.RunAll@11f0a5a1]" started-at="2022-05-08T02:41:46Z" name="TC_04_Delete" finished-at="2022-05-08T02:41:46Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testcases.RunForGrid.RunAll.TC_04_Delete(java.lang.reflect.Method)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_04_Delete -->
-        <test-method is-config="true" signature="afterClass(java.lang.String)[pri:0, instance:testcases.RunForGrid.RunAll@11f0a5a1]" started-at="2022-05-08T02:41:46Z" name="afterClass" finished-at="2022-05-08T02:41:47Z" duration-ms="1035" status="PASS">
+        <test-method is-config="true" signature="afterClass(java.lang.String)[pri:0, instance:testcases.RunForGrid.RunAll@73a8da0f]" started-at="2022-05-16T08:05:45Z" name="afterClass" finished-at="2022-05-16T08:05:46Z" duration-ms="1184" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -108,11 +97,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method signature="TC_04_Delete(java.lang.reflect.Method)[pri:0, instance:testcases.RunForGrid.RunAll@73a8da0f]" started-at="2022-05-16T08:05:45Z" name="TC_04_Delete" finished-at="2022-05-16T08:05:45Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.RunForGrid.RunAll.TC_04_Delete(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_Delete -->
       </class> <!-- testcases.RunForGrid.RunAll -->
-    </test> <!-- Run on chrome -->
-    <test started-at="2022-05-08T02:41:18Z" name="Run on Firefox" finished-at="2022-05-08T02:42:24Z" duration-ms="66378">
+    </test> <!-- Run on edge -->
+    <test started-at="2022-05-16T08:05:21Z" name="Run on Firefox" finished-at="2022-05-16T08:05:47Z" duration-ms="26025">
       <class name="testcases.RunForGrid.RunAll">
-        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RunForGrid.RunAll@48793bef]" started-at="2022-05-08T02:41:18Z" name="beforeClass" finished-at="2022-05-08T02:42:08Z" duration-ms="50541" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RunForGrid.RunAll@3eb77ea8]" started-at="2022-05-16T08:05:21Z" name="beforeClass" finished-at="2022-05-16T08:05:30Z" duration-ms="9527" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -158,7 +158,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC_01_Register(java.lang.reflect.Method)[pri:0, instance:testcases.RunForGrid.RunAll@48793bef]" started-at="2022-05-08T02:42:08Z" name="TC_01_Register" finished-at="2022-05-08T02:42:18Z" duration-ms="9566" status="PASS">
+        <test-method signature="TC_01_Register(java.lang.reflect.Method)[pri:0, instance:testcases.RunForGrid.RunAll@3eb77ea8]" started-at="2022-05-16T08:05:30Z" name="TC_01_Register" finished-at="2022-05-16T08:05:40Z" duration-ms="9538" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -169,7 +169,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01_Register -->
-        <test-method signature="TC_02_Login(java.lang.reflect.Method)[pri:0, instance:testcases.RunForGrid.RunAll@48793bef]" started-at="2022-05-08T02:42:18Z" name="TC_02_Login" finished-at="2022-05-08T02:42:23Z" duration-ms="5484" status="PASS">
+        <test-method signature="TC_02_Login(java.lang.reflect.Method)[pri:0, instance:testcases.RunForGrid.RunAll@3eb77ea8]" started-at="2022-05-16T08:05:40Z" name="TC_02_Login" finished-at="2022-05-16T08:05:45Z" duration-ms="5521" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -180,7 +180,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_02_Login -->
-        <test-method signature="TC_03_Edit(java.lang.reflect.Method)[pri:0, instance:testcases.RunForGrid.RunAll@48793bef]" started-at="2022-05-08T02:42:23Z" name="TC_03_Edit" finished-at="2022-05-08T02:42:23Z" duration-ms="1" status="PASS">
+        <test-method signature="TC_03_Edit(java.lang.reflect.Method)[pri:0, instance:testcases.RunForGrid.RunAll@3eb77ea8]" started-at="2022-05-16T08:05:45Z" name="TC_03_Edit" finished-at="2022-05-16T08:05:45Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -191,7 +191,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03_Edit -->
-        <test-method signature="TC_04_Delete(java.lang.reflect.Method)[pri:0, instance:testcases.RunForGrid.RunAll@48793bef]" started-at="2022-05-08T02:42:23Z" name="TC_04_Delete" finished-at="2022-05-08T02:42:23Z" duration-ms="1" status="PASS">
+        <test-method signature="TC_04_Delete(java.lang.reflect.Method)[pri:0, instance:testcases.RunForGrid.RunAll@3eb77ea8]" started-at="2022-05-16T08:05:45Z" name="TC_04_Delete" finished-at="2022-05-16T08:05:45Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -202,7 +202,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_04_Delete -->
-        <test-method is-config="true" signature="afterClass(java.lang.String)[pri:0, instance:testcases.RunForGrid.RunAll@48793bef]" started-at="2022-05-08T02:42:23Z" name="afterClass" finished-at="2022-05-08T02:42:24Z" duration-ms="773" status="PASS">
+        <test-method is-config="true" signature="afterClass(java.lang.String)[pri:0, instance:testcases.RunForGrid.RunAll@3eb77ea8]" started-at="2022-05-16T08:05:45Z" name="afterClass" finished-at="2022-05-16T08:05:47Z" duration-ms="1429" status="PASS">
           <params>
             <param index="0">
               <value>

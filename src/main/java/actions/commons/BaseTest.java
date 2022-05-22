@@ -9,6 +9,8 @@ import enums.RoleNameList;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.joda.time.DateTime;
+import org.joda.time.DateTimeZone;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -376,5 +378,33 @@ public abstract class BaseTest {
             }
 
         }
+    }
+
+    protected String getCurrentDay() {
+        DateTime nowUTC = new DateTime(DateTimeZone.UTC);
+        int day = nowUTC.getDayOfMonth();
+        if (day > 10) {
+            String dayValue = "0" + day;
+            return dayValue;
+        }
+        return String.valueOf(day);
+    }
+
+    protected String getCurrentMonth() {
+        DateTime now = new DateTime(DateTimeZone.UTC);
+        int month = now.getMonthOfYear();
+        if (month < 10) {
+            return "0" + month;
+        }
+        return String.valueOf(month);
+    }
+
+    protected String getCurrentYear() {
+        DateTime now = new DateTime(DateTimeZone.UTC);
+        return now.getYear() + "";
+    }
+
+    protected String getToday() {
+        return getCurrentYear() + "-" + getCurrentMonth() + "-" + getCurrentDay();
     }
 }

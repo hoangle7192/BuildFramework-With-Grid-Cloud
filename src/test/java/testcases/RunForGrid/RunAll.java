@@ -6,7 +6,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 import reportConfig.ExtentTestManager;
 
 import java.lang.reflect.Method;
@@ -108,6 +111,7 @@ public class RunAll extends BaseTest {
 
         ExtentTestManager.getTest().log(Status.INFO, "Step06");
         Assert.assertTrue(driver.findElement(By.className("ico-logout")).isDisplayed());
+
     }
 
     @Test

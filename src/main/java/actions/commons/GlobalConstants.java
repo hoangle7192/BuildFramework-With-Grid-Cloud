@@ -13,7 +13,7 @@ public class GlobalConstants {
     public static final String UPLOAD_FILE_FOLDER = PROJECT_PATH + File.separator + "uploadFiles" + File.separator;
     public static final String BROWSER_LOG_PATH = PROJECT_PATH + File.separator + "browserLogs" + File.separator;
 
-    public static final String API_TEST_DATA_FOLDER = PROJECT_PATH + File.separator + "src" + File.separator + "main" + File.separator + "java.MOT.com"
+    public static final String API_TEST_DATA_FOLDER = PROJECT_PATH + File.separator + "src" + File.separator + "main" + File.separator + "java"
             + File.separator + "testData" + File.separator + "API" + File.separator;
 
     public static final String JAVA_VERSION = System.getProperty("java.version");
@@ -29,4 +29,5 @@ public class GlobalConstants {
 
     public static final int LONG_TIME_OUT = 30;
     public static final int SHORT_TIME_OUT = 10;
+
 }

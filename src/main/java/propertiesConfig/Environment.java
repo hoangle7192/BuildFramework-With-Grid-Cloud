@@ -3,7 +3,7 @@ package propertiesConfig;
 import org.aeonbits.owner.Config;
 import org.testng.annotations.Parameters;
 
-@Config.Sources("classpath:${severName}.properties")
+@Config.Sources({"classpath:${severName}.properties", "classpath:setting.properties"})
 public interface Environment extends Config {
 
     @Key("urlAdmin")
@@ -20,4 +20,7 @@ public interface Environment extends Config {
 
     @Key("db.password")
     String getDBPassword();
+
+    @Key("giaTien")
+    String getGiaTien();
 }
