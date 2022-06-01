@@ -37,6 +37,7 @@
         <log4j.version>2.17.1</log4j.version>
         <msjdbcSQL.version>10.2.0.jre8</msjdbcSQL.version>
         <joda-time.version>2.10.14</joda-time.version>
+        <poi.version>5.0.0</poi.version>
         <environment>DEV</environment>
     </properties>
 
@@ -147,6 +148,19 @@
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
             <version>${joda-time.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>${poi.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${poi.version}</version>
         </dependency>
 
 

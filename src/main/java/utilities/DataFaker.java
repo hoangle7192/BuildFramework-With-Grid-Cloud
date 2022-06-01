@@ -63,6 +63,8 @@ public class DataFaker {
     }
 
     public static void main(String[] args) {
+        //DataFaker dataFaker = new DataFaker();
+        //dataFaker.getDataFaker().getDataFaker()
         DataFaker dataFaker = DataFaker.getDataFaker();
         dataFaker.getEditFirstname();
     }
