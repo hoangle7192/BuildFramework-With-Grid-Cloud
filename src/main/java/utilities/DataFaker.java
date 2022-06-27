@@ -5,7 +5,7 @@ import com.github.javafaker.Faker;
 import java.util.Locale;
 
 public class DataFaker {
-    private final Locale locale = new Locale("eng");
+    private final Locale locale = new Locale("vi");
     private final Faker faker = new Faker(locale);
 
     public static DataFaker getDataFaker() {
@@ -66,6 +66,7 @@ public class DataFaker {
         //DataFaker dataFaker = new DataFaker();
         //dataFaker.getDataFaker().getDataFaker()
         DataFaker dataFaker = DataFaker.getDataFaker();
-        dataFaker.getEditFirstname();
+        System.out.println(dataFaker.getFirstname());
+        //dataFaker.getEditFirstname();
     }
 }

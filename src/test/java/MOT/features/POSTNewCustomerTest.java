@@ -1,6 +1,6 @@
 package MOT.features;
 
-import ApiPoJoFile.NormalCustomer;
+import listeners.ApiPoJoFile.NormalCustomer;
 import MOT.api.PostCustomer;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;

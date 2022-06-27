@@ -31,6 +31,7 @@ public abstract class BasePage {
     }
 
     /* ------------------------------------------------------------------Web Browser------------------------------------------------------------------*/
+
     public void openUrl(WebDriver driver, String url) {
         driver.get(url);
     }
@@ -60,7 +61,8 @@ public abstract class BasePage {
     }
 
     protected Alert waitForAlertPresence(WebDriver driver) {
-        return new WebDriverWait(driver, GlobalConstants.LONG_TIME_OUT).until(ExpectedConditions.alertIsPresent());
+        WebDriverWait webDriverWait = new WebDriverWait(driver, GlobalConstants.LONG_TIME_OUT);
+        return webDriverWait.until(ExpectedConditions.alertIsPresent());
     }
 
     protected void acceptAlert(WebDriver driver) {
@@ -109,7 +111,6 @@ public abstract class BasePage {
             if (!getTitle(driver).equals(parentWindowTitle)) {
                 closeWindow(driver);
             }
-            driver.switchTo().window(parentWindowTitle);
         }
     }
 
@@ -232,8 +233,8 @@ public abstract class BasePage {
     protected void selectItemInCustomDropDown(WebDriver driver, String parentLocator, String childLocator, String selectItemName) {
         clickToElement(driver, parentLocator);
         new WebDriverWait(driver, GlobalConstants.LONG_TIME_OUT).until(ExpectedConditions.presenceOfAllElementsLocatedBy(getLocator(childLocator)));
-        List<WebElement> ItemNames = getListWebElements(driver, childLocator);
-        for (WebElement itemName : ItemNames) {
+        List<WebElement> itemNames = getListWebElements(driver, childLocator);
+        for (WebElement itemName : itemNames) {
             if (itemName.getText().trim().equals(selectItemName)) {
                 JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
                 jsExecutor.executeScript("arguments[0].scrollIntoView(true);", itemName);

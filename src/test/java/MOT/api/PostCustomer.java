@@ -1,6 +1,6 @@
 package MOT.api;
 
-import ApiPoJoFile.NormalCustomer;
+import listeners.ApiPoJoFile.NormalCustomer;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
