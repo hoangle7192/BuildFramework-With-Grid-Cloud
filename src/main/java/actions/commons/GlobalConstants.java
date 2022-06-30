@@ -22,9 +22,9 @@ public class GlobalConstants {
     public static final String BROWSER_ACCESS_KEY = "aXYa5mwfsPchL2pRN6LJ";
     public static final String BROWSER_STACK_URL = "https://" + BROWSER_USERNAME + ":" + BROWSER_ACCESS_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
-    public static final String SAUCE_USERNAME = "oauth-hoanglh2-fdebe";
-    public static final String SAUCE_ACCESS_KEY = "8d7f0d53-d001-4b29-9795-35086ddd2fd1";
-    public static final String SAUCE_URL = "https://" + SAUCE_USERNAME + ":" + SAUCE_ACCESS_KEY + "@ondemand.eu-central-1.saucelabs.com:443/wd/hub";
+    public static final String SAUCE_USERNAME = "oauth-anhhuho7777-78638";
+    public static final String SAUCE_ACCESS_KEY = "21b2607c-0f13-4dcc-b2a8-cd477cb2888c";
+    public static final String SAUCE_URL = "https://" + SAUCE_USERNAME + ":" + SAUCE_ACCESS_KEY + "@ondemand.apac-southeast-1.saucelabs.com:443/wd/hub";
 
 
     public static final int LONG_TIME_OUT = 30;
