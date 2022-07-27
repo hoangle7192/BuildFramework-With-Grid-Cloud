@@ -6,10 +6,10 @@
         <listener class-name="listeners.ExtentTestListener"/>
     </listeners>
 
-    <test name="Run on edge">
+    <test name="Run on chrome">
         <parameter name="envName" value="Local"/>
         <parameter name="roleName" value="Admin"/>
-        <parameter name="browserName" value="edge"/>
+        <parameter name="browserName" value="Chrome"/>
         <parameter name="ipAddress" value=""/>
         <parameter name="portName" value=""/>
         <parameter name="osName" value=""/>
@@ -20,7 +20,7 @@
         </classes>
     </test>
 
-    <test name="Run on Firefox">
+    <!--<test name="Run on Firefox">
         <parameter name="envName" value="Local"/>
         <parameter name="roleName" value="Admin"/>
         <parameter name="browserName" value="Firefox"/>
@@ -32,6 +32,6 @@
         <classes>
             <class name="testcases.RunForGrid.RunAll"/>
         </classes>
-    </test>
+    </test>-->
 
 </suite>
