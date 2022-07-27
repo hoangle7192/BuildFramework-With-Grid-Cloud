@@ -3,7 +3,7 @@ package propertiesConfig;
 import org.aeonbits.owner.Config;
 import org.testng.annotations.Parameters;
 
-@Config.Sources({"classpath:${severName}.properties", "classpath:setting.properties"})
+@Config.Sources({"classpath:DEV.properties", "classpath:setting.properties"})
 public interface Environment extends Config {
 
     @Key("urlAdmin")

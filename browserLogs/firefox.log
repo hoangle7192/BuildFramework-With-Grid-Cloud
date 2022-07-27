@@ -1,22 +1,13 @@
-1652688322161	geckodriver	INFO	Listening on 127.0.0.1:46317
-1652688322894	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HoangLH\\AppData\\Local\\Temp\\rust_mozprofileGik6eO"
-1652688323371	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HoangLH\\AppData\\Local\\Temp\\rust_mozprofileGik6eO\\search.json.mozlz4", (void 0)))
-1652688328464	Marionette	INFO	Listening on port 1033
-1652688329033	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.nopcommerce.com"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.nopcommerce.com"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: fallinJavaScript ge rbackr otro a synchronous message for:" "https://demo.nopcommerce.com"
-: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling bacJavaScrki ptto  ear rsoyr: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-nchronous message for:" "https://demo.nopcommerce.com"
-console.warn: LoginRecipes: "getRecipes: falling backJavaS ctroi pat  seyrnrcohrr: resoonuorucse :m/e/sgsraeg/em ofdoules/Lro:g"inManagerParent. j"shmt, tlpisn:e/ /1d3e6m:o .TnyoppeError: gRecipeManager is null
-commerce.com"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message fJoavaSrc:r"i p"th tetrprso:r/:/ demo.nopcommercer.ecsoomu"rc
-e://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling baJavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-ck to a synchrJavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-onous message for:" "https://demo.nopcommerce.com"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.nopcommerce.com"
-1652688345911	Marionette	INFO	Stopped listening on port 1033
+1657442212599	geckodriver	INFO	Listening on 127.0.0.1:16551
+1657442212858	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tx/sxjvplwj7hdcwxwqfldz6ts80000gn/T/rust_mozprofileXdb8Te"
+1657442213837	Marionette	INFO	Marionette enabled
+2022-07-10 15:36:53.875 plugin-container[31942:939759] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 15:36:53.875 plugin-container[31942:939759] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1657442213905	Marionette	INFO	Listening on port 52043
+Read port: 52043
+1657442214129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-07-10 15:36:54.246 plugin-container[31942:939759] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 15:36:54.246 plugin-container[31942:939759] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-10 15:36:54.246 plugin-container[31942:939803] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-10 15:36:54.246 plugin-container[31942:939803] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/tx/sxjvplwj7hdcwxwqfldz6ts80000gn/T/rust_mozprofileXdb8Te/search.json.mozlz4", (void 0)))
